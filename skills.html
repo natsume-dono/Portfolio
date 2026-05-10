@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY skills</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .logo {
+        font-size: 18px;
+        font-weight: bold;
+        color: #7c6fd4;
+      }
+      .nav-links {
+        font-size: 18px;
+        font-weight: bold;
+        color: #7c6fd4;
+      }
+      #skill {
+        background-color: #97d9fa;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      #skill h1 {
+        color: #a86e69;
+        font-size: 2.5rem;
+      }
+
+      #skill p {
+        font-size: 1.2rem;
+        color: #0f0303;
+      }
+      grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+        max-width: 460px;
+        margin: 0 auto;
+      }
+      .skill {
+        background: #fff;
+        border: 1px solid #d0e4f7;
+        border-radius: 8px;
+        padding: 14px 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-width: 180px;
+      }
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #378add;
+        flex-shrink: 0;
+      }
+      .skill span {
+        font-size: 14px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo">Jenika Maharjan</div>
+        <ul class="nav-links">
+          <li><a href="my portfolio.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="skills.html" class="active">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="skill">
+      <div class="container">
+        <h1>My Skills</h1>
+        <p>Here are some of the skills I have developed:</p>
+        <div class="grid">
+          <div class="skill">
+            <div class="dot"></div>
+            <span>HTML</span>
+          </div>
+          <div class="skill">
+            <div class="dot"></div>
+            <span>CSS</span>
+          </div>
+          <div class="skill">
+            <div class="dot"></div>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill">
+            <div class="dot"></div>
+            <span>Responsive Design</span>
+          </div>
+          <div class="skill">
+            <div class="dot"></div>
+            <span>Version Control (Git)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Jenika Maharjan. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
